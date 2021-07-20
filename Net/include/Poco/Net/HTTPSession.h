@@ -94,7 +94,7 @@ public:
 		HTTP_PORT = 80
 	};
 	
-	StreamSocket detachSocket();
+	virtual StreamSocket detachSocket();
 		/// Detaches the socket from the session.
 		///
 		/// The socket is returned, and a new, uninitialized socket is
